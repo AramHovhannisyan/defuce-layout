@@ -63,4 +63,8 @@
   .quoted-bg {
     background: none;
   }
+
+  .splide__arrows {
+    display: none;
+  }
 }
