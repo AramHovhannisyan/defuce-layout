@@ -1,0 +1,59 @@
+footer nav {
+  margin: 140px 0 10px 0;
+  border-top: 1px solid #eecbcb;
+  padding: 28px 0;
+}
+
+footer nav ul {
+  gap: 112px;
+}
+
+footer nav ul li a {
+  color: #747474;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+footer .copyright {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.7px;
+  text-align: center;
+  margin-bottom: 286px;
+}
+
+
+@media (max-width: 768px) {
+  footer nav {
+    border: none;
+    padding: 0;
+    margin: 38px 0 41px 0;
+  }
+
+  footer nav ul:not(.submenu) {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: initial;
+    row-gap: 41px;
+  }
+
+  footer nav ul:not(.submenu) li {
+    flex: 1 1 auto;
+    min-width: 0;
+    text-align: center;
+  }
+
+  footer nav ul li a {
+    font-size: 12px;
+  }
+
+  footer .copyright {
+    margin-bottom: 494px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,140 @@
+#contact {
+  margin-bottom: 69px;
+}
+
+#contact .contact-block {
+  position: relative;
+  background: url(../img/building.jpg) no-repeat;
+  background-size: contain;
+  background-position: -130px 0px;
+}
+
+#contact .address-block {
+  background: #FFFFFF;
+  width: 330px;
+  padding: 27px 20px 27px 19px;
+  text-align: center;
+}
+
+#contact .address-block p {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 400;
+  color: #787878;
+}
+
+#contact .form-block {
+  padding: 0px 0 0 48px;
+  background-color: #fff;
+}
+
+#contact .form-block h2 {
+  margin-bottom: 12px;
+  line-height: 60px;
+}
+
+#contact .form-block p {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+  color: #787878;
+  text-transform: uppercase;
+}
+
+#contact .form-block form {
+  margin-top: 39px;
+}
+
+#contact .form-block form label,
+#contact .form-block form input,
+#contact .form-block form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+#contact .form-block form input,
+#contact .form-block form textarea {
+  border: 2px solid #E2E2E2;
+  color: #c3b8b8;;
+}
+
+#contact .form-block form label {
+  line-height: 32px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+#contact .form-block form input {
+  padding: 12px 0 12px 50px;
+  font-size: 16px;
+  margin-bottom: 6px;
+  height: 49px;
+}
+
+#contact .form-block form input#contact-name {
+  background: url(../img/icons/input-human.jpg) 17px no-repeat;
+}
+
+#contact .form-block form input#contact-email {
+  background: url(../img/icons/input-email.svg) 16px no-repeat;
+}
+
+#contact .form-block form .contact-submit a {
+  margin-top: 36px;
+  margin-bottom: 71px;
+}
+
+#contact .form-block form textarea {
+  height: 117px;
+  padding: 10px 0 0 10px;
+}
+
+@media (max-width: 768px) {
+
+  #contact {
+    box-shadow: 0px 0px 15px 0px #0000001A;
+  }
+
+  #contact .contact-block {
+    background-size: 300%;
+    background-position: -290px -251px;
+  }
+
+  #contact .address-block {
+    width: 320px;
+    line-height: 23px;
+    margin: 69px 0 201px 0;
+  }
+
+  #contact .form-block {
+    padding: 0;
+    text-align: center;
+  }
+
+  #contact .form-block h2 {
+    margin: 33px 0 17px 0;
+    line-height: 60px;
+  }
+
+  #contact .form-block p {
+    line-height: 25px;
+  }
+
+  #contact .form-block form {
+    margin-top: 13px;
+  }
+
+  #contact .form-block form label {
+    text-align: left;
+  }
+
+  #contact .form-block form input {
+    margin-bottom: 6px;
+  }
+
+  #contact .form-block form .contact-submit a {
+    margin-top: 29px;
+    margin-bottom: 42px;
+  }
+}

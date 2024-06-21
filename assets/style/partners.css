@@ -1,0 +1,13 @@
+#partners img {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  #partners video {
+    display: none;
+  }
+
+  #partners img {
+    display: block;
+  }
+}

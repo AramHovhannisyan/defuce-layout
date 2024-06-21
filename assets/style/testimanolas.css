@@ -1,0 +1,66 @@
+#testimanolas .testimanolas-content {
+  position: relative;
+}
+
+#testimanolas h2 {
+  margin: 92px 0 39px 0;
+}
+
+.splide {
+  position: initial !important;
+}
+
+.splide__slide {
+  padding: 41px 73px 40px 64px;
+  background-size: cover;
+  background: #0d73c20f;
+}
+
+.splide__slide p {
+  color: #2B2B2B;
+  font-weight: 300;
+  margin-bottom: 20px;
+  letter-spacing: 0.7px;
+}
+
+.quoted-bg {
+  background-image: url('../img/icons/double-quote.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.splide__arrows {
+  position: absolute;
+  right: 0;
+  top: 54px;
+  height: 50px;
+  width: 130px;
+}
+
+.splide__arrow {
+  background: transparent !important;
+  width: auto !important;
+  height: auto !important;
+  border: 2px solid #787878 !important;
+  border-radius: 0 !important;
+}
+
+.splide__arrow img{
+  padding: 7px 14px;
+}
+
+@media (max-width: 768px) {
+  #testimanolas h2 {
+    margin: 64px 0 30px 0;
+  }
+
+  .splide__slide {
+    padding: 41px 26px 35px 25px;
+    margin-bottom: 20px !important;
+  }
+
+  .quoted-bg {
+    background: none;
+  }
+}
