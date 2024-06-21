@@ -1,5 +1,6 @@
 #partners img {
   display: none;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
